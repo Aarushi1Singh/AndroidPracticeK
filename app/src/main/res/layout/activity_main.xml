@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Akshay Parasar"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@id/image1"
+        app:layout_constraintTop_toBottomOf="@id/image1"></TextView>
+
+    <TextView
+        android:id="@+id/clgname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Jaypee Institute of Information Technology"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Name">
+
+    </TextView>
+
+    <!--  SETTING OPTIONS  -->
+    <!--     LINE 1   -->
+    <ImageView
+        android:id="@+id/L1icon1"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/clgname">
+    </ImageView>
+    <TextView
+        android:id="@+id/L1text1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="     Your Bookmarks"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/clgname"
+        app:layout_constraintStart_toEndOf="@id/L1icon1">
+    </TextView>
+    <ImageView
+        android:id="@+id/L1icon2"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/clgname"
+        app:layout_constraintStart_toEndOf="@id/L1text1">
+    </ImageView>
+
+    <!--     LINE 2   -->
+    <ImageView
+        android:id="@+id/L2icon1"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/L1icon1">
+    </ImageView>
+    <TextView
+        android:id="@+id/L2text1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="     Interests    "
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/L1text1"
+        app:layout_constraintStart_toEndOf="@id/L2icon1">
+    </TextView>
+    <ImageView
+        android:id="@+id/L2icon2"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/L1icon2"
+        app:layout_constraintStart_toEndOf="@id/L1text1">
+    </ImageView>
+
+<!--    LINE 3    -->
+
+    <ImageView
+        android:id="@+id/L3icon1"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/L2icon1">
+    </ImageView>
+    <TextView
+        android:id="@+id/L3text1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="     About us   "
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/L2text1"
+        app:layout_constraintStart_toEndOf="@id/L3icon1">
+    </TextView>
+
+    <!--  LINE 4   -->
+
+    <ImageView
+        android:id="@+id/L4icon1"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/L3icon1">
+    </ImageView>
+    <TextView
+        android:id="@+id/L4text1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text=" Privacy Policy"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/L3text1"
+        app:layout_constraintStart_toEndOf="@id/L4icon1">
+    </TextView>
+
+
+    <!--   LINE 5   -->
+
+    <ImageView
+        android:id="@+id/L5icon1"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/L4icon1">
+    </ImageView>
+    <TextView
+        android:id="@+id/L5text1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="   Feedback  "
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/L4text1"
+        app:layout_constraintStart_toEndOf="@id/L5icon1">
+    </TextView>
+
+    <!--   LINE 6   -->
+
+    <ImageView
+        android:id="@+id/L6icon1"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/L5icon1">
+    </ImageView>
+    <TextView
+        android:id="@+id/L6text1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="     Settings   "
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/L5text1"
+        app:layout_constraintStart_toEndOf="@id/L6icon1">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/L6icon2"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@id/L6text1"
+        tools:layout_editor_absoluteY="450dp"></ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
